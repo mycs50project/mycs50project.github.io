@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+	<header style="background-image:url(seagal.JPG)">
+
+		<link href="finalproject.css" rel="stylesheet">
+		
+		<link href="action.php">
+		
+		<!-- http://jquery.com/ -->
+        <script src="/js/jquery-1.11.1.min.js"></script>
+
+        <!-- http://getbootstrap.com/ -->
+        <script src="/js/bootstrap.min.js"></script>
+
+        <!-- http://underscorejs.org/ -->
+        <script src="/js/underscore-min.js"></script>
+
+		<h1>Our Website</h1>
+
+			<nav class="menu">
+				<ul class="clearfix">
+					<li><a href="aboutus.html">About us</a></li>
+					<li class="topi"><a href="#">Topics</a>
+
+						<ul class="sub-menu">
+							<li><a href="architecture.html">Architecture</a></li>
+							<li><a href="norway.html">Norway</a></li>
+							<li><a href="something.html">Something else</a></li>
+						</ul>
+					</li>
+
+					<li><a href="blog.html">Blog posts</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+	
+
+	<body>
+		<table style="width:100%">
+
+			<tr class="line">
+				<td class="pics">
+					<a href="norway.html"><img src="strawberries.JPG" width="350" height="350"></a>
+					<h2 class="Norway">Norway</h2>
+				</td>
+
+				<td class="pics">
+					<a href="architecture.html"><img src="flowers.JPG" width="350" height="350"></a>
+					<h2 class="Architecture">Architecture</h2>
+				</td>
+				<td class="pics">
+					<a href="something.html"><img src="pat.JPG" width="350" height="350"></a>
+					<h2 class="something">something else<h2>
+				</td>
+			</tr>
+		</table>
+      	
+      	<form action="action.php" method="get">
+            Search for a recipe<input type="text" name="value">
+            <input type="submit" value="Search" placeholder="Ingredient, dish or type of meal">
+        </form>
+        
+	</body>
+
+	<footer>
+		© 2015
+	</footer>
+
+
+
+</html>
